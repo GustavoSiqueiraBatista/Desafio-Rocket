@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(233, 230, 230);
+    text-align: center
+}
+.foto {
+    border-radius: 100%;
+    background-color: black;
+}
+.tab {
+    display: inline;
+}
+li {
+    list-style: none;
+}
+body {
+    animation: fromtop .7s .4s backwards;
+}
+@keyframes fromtop {
+    from{
+        opacity: 0;
+        transform: translateX(-30px);
+    }    
+    top {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
